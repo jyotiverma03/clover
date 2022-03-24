@@ -1,0 +1,33 @@
+
+application {
+  config {
+    baseName clover,
+    applicationType monolith,
+    authenticationType jwt,
+    buildTool gradle,
+    databaseType mongodb,
+    packageName com.sapient.clover,
+    prodDatabaseType mongodb,
+    clientFramework react,
+    enableTranslation true,
+    nativeLanguage en,
+    languages [en]
+  }
+  entities *
+}
+
+deployment {
+  deploymentType docker-compose
+  dockerRepositoryName "alphabeta"
+  dockerPushCommand "docker push"
+}
+
+entity Employee {
+  firstName String required,
+    lastName String required,
+    phoneNo String
+}
+
+
+service all with serviceImpl
+paginate all with pagination   

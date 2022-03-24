@@ -1,0 +1,14 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [],
+    "clusteredDbApps": [],
+    "deploymentType": "docker-compose",
+    "directoryPath": "../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": "alphabeta",
+    "gatewayType": "SpringCloudGateway",
+    "jwtSecretKey": "OGNjMTFiZjQ1MWM0ZGFkMTUwNzU4ODVhYzY2NmNhYTAwZGNmNjdlNDI5YmU2Y2JhOTgyYWVlZDM1NDIyNWU4YTU2NGUyYjE5MGNlZWUzNGM0NThkZjQ3YWQ4MTBkYzViMWU3NA==",
+    "monitoring": "no",
+    "serviceDiscoveryType": "eureka"
+  }
+}
